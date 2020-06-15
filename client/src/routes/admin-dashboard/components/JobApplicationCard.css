@@ -1,0 +1,43 @@
+.jobcardApplication-container{
+    height: 280px;
+}
+
+.see-more{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    color: #4fade4;
+    transition: 0.2s;
+}
+
+.see-more:hover{
+    transform: scale(1.05);
+}
+.delete-icon {
+    fill: #E04C4C !important;
+    width: 40px !important;
+    height: 40px !important;
+    cursor: pointer;
+}
+
+.delete-icon:hover{
+    transform: scale(1.1);
+}
+.approve-button{
+    position: relative;
+    left: 84%;
+    bottom: 20px;
+    background: #1A4A66;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transform: translateX(-50%);
+    width: 150px;
+    font-weight: 600;
+height: 46px;
+cursor: pointer;
+}
+.approve-button:hover{
+    opacity: 0.9;
+}

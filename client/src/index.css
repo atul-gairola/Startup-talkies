@@ -1,0 +1,15 @@
+/* GENERAL STYLES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+background-color: #F4FBFD;
+font-family: 'Lato', sans-serif;
+}

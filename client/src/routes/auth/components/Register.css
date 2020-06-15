@@ -1,0 +1,56 @@
+#register-form{
+    width: 100%;
+    text-align: left;
+}
+
+#register-form label{
+display: block;
+font-weight: bold;
+font-size: 22px;
+color: #1A4A66;
+margin-bottom: 7px;
+}
+
+#register-form input[type='text'], #register-form input[type='password']{
+    width: 99%;
+    padding: 10px 20px;
+    border: 2px solid #1A4A66;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 1.2rem;
+    margin-bottom: 31px;
+}
+
+#register-button{
+    position: relative;
+    left: 50%;
+    background: #1A4A66;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transform: translateX(-50%);
+    width: 214px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+height: 56px;
+cursor: pointer;
+}
+#register-button:hover{
+    opacity: 0.9;
+}
+
+#employer-radio, #employee-radio{
+margin-right: 10px;
+margin-bottom: 30px;
+width: 15px;
+height: 15px;
+}
+.radio-label{
+    display: inline !important;
+    font-size: 1.1rem !important;
+    margin-right: 41px; 
+}
+.radio-label:last-child{
+    margin-right: 0 !important;
+}

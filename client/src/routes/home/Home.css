@@ -1,0 +1,15 @@
+.home-container{
+    width: 800px;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 25px;
+    color: #1A4A66;
+    margin-bottom: 43px;
+}

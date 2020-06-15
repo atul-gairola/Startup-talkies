@@ -1,0 +1,17 @@
+.modal-textarea{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    resize: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1A4A66;
+}
+.modal-button{
+    margin: 40px 0 20px;
+}
+.makeStyles-paper-2{
+    width: 700px;
+}

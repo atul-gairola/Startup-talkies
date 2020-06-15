@@ -1,0 +1,68 @@
+#employer-container{
+    width: 800px;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.card-container{
+    width: 100%;
+    padding: 35px 40px;
+    background: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+text-align: left;
+}
+
+#job-application-form label{
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1A4A66;
+    margin-bottom: 7px;
+    }
+
+#job-application-form input {
+    width: 99%;
+    padding: 10px 20px;
+    border: 2px solid #1A4A66;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 1.2rem;
+    margin-bottom: 31px;
+}
+
+#job-application-form textarea{
+    display: block;
+    width: 99%;
+    height: 150px;
+    padding: 10px 20px;
+    resize: vertical;
+    border: 2px solid #1A4A66;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 1.2rem;
+    margin-bottom: 31px;
+}
+
+#publish-button{
+    position: relative;
+    left: 50%;
+    background: #1A4A66;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transform: translateX(-50%);
+    width: 214px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+height: 56px;
+cursor: pointer;
+}
+#publish-button:hover{
+    opacity: 0.9;
+}

@@ -1,0 +1,47 @@
+.auth-container{
+    text-align: center;
+}
+.auth-container .logo{
+    margin: 50px 0 50px 0;
+    font-weight: bold;
+font-size: 32px;
+}
+.auth-form-wrapper{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 564px;
+height: 100%;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.56);
+border-radius: 20px;
+padding: 50px;
+}
+.button-container{
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.button-container button{
+    padding: 0 20px 15px 20px;
+    font-weight: bold;
+    width: 50%;
+    font-size: 25px;
+    color: #1A4A66;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover{
+transform: scale(1.01);
+}
+
+
+#slider{
+    height: 4px;
+    background: #BFD9E1;
+    width: 50%;
+    transition: 0.2s;
+    position: absolute;
+    bottom: 0;
+}
